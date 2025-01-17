@@ -24,14 +24,15 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 
 ---
 
+![Login Page](public/login_page.jpg)
+
 ## 1. Resident Landing Page: Dashboard
 ### Purpose
 - Overview for residents to view products available in the Minimart.
 
 ### Design Layout
 
-![The inventory view of all products for residents.](user_view.png)
-
+![The inventory view of all products for residents.](public/user_view.png)
 
 ---
 
@@ -41,7 +42,7 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 
 ### Design Layout
 
-![Admin's dashboard view](view_inventory.jpg)
+![Admin's dashboard view](public/view_inventory.jpg)
 
 
 ---
@@ -52,8 +53,8 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 
 ### Design Layout
 
-![Create User Page.](create_user.jpg)
-![User Management page view.](user_management.jpg)
+![Create User Page.](public/create_user.jpg)
+![User Management page view.](public/user_management.jpg)
 
 
 ---
