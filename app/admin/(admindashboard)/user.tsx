@@ -1,5 +1,7 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { auth, signOut } from '@/lib/auth';
 import Image from 'next/image';
 import {
   DropdownMenu,
@@ -10,10 +12,32 @@ import {
   DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
-export async function User() {
-  let session = await auth();
-  let user = session?.user;
+function getCookieValue(name: string) {
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop()?.split(';').shift();
+}
+
+export function User() {
+  const [username, setUsername] = useState<string | null>(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    const username = getCookieValue('username');
+    setUsername(username ? "" + username : null);
+  }, []);
+
+  const handleSignOut = async () => {
+    const response = await fetch('/api/signOut', {
+      method: 'POST',
+    });
+
+    if (response.ok) {
+      router.push('/login');
+    }
+  };
 
   return (
     <DropdownMenu>
@@ -24,7 +48,7 @@ export async function User() {
           className="overflow-hidden rounded-full"
         >
           <Image
-            src={user?.image ?? '/placeholder-user.jpg'}
+            src={'/placeholder-user.jpg'}
             width={36}
             height={36}
             alt="Avatar"
@@ -38,19 +62,12 @@ export async function User() {
         <DropdownMenuItem>Settings</DropdownMenuItem>
         <DropdownMenuItem>Support</DropdownMenuItem>
         <DropdownMenuSeparator />
-        {user ? (
-          <DropdownMenuItem>
-            <form
-              action={async () => {
-                'use server';
-                await signOut();
-              }}
-            >
-              <button type="submit">Sign Out</button>
-            </form>
+        {username ? (
+          <DropdownMenuItem asChild>
+            <button onClick={handleSignOut}>Sign Out</button>
           </DropdownMenuItem>
         ) : (
-          <DropdownMenuItem>
+          <DropdownMenuItem asChild>
             <Link href="/login">Sign In</Link>
           </DropdownMenuItem>
         )}

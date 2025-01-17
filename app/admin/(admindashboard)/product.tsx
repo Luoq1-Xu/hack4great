@@ -36,9 +36,6 @@ export function Product({ product }: { product: SelectProduct }) {
     setFormData((prevData) => ({ ...prevData, status: value }));
   };
 
-  console.log(product.availableAt)
-
-
   const handleEdit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     await editProduct(product.id, formData);
