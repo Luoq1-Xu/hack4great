@@ -1,12 +1,8 @@
-<div align="center"><strong>Next.js 15 Admin Dashboard Template</strong></div>
+<div align="center"><strong>Hello</strong></div>
 <div align="center">Built with the Next.js App Router</div>
+<div align="center">Built upon Next.js 15 Admin Dashboard Template - "https://vercel.com/templates/next.js/admin-dashboard-tailwind-postgres-react-nextjs"</div>
 <br />
 <div align="center">
-<a href="https://next-admin-dash.vercel.app/">Demo</a>
-<span> · </span>
-<a href="https://vercel.com/templates/next.js/admin-dashboard-tailwind-postgres-react-nextjs">Clone & Deploy</a>
-<span>
-</div>
 
 # Minimart and Voucher System Webpage Design
 
