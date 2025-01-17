@@ -30,7 +30,7 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 
 ### Design Layout
 ```
-![alt text](telegram-cloud-photo-size-5-6075620502124217720-y.jpg)
+![The inventory view of all products for residents.](user_view.png)
 ```
 
 ---
@@ -41,7 +41,7 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 
 ### Design Layout
 ```
-![alt text](telegram-cloud-photo-size-5-6075620502124217721-y.jpg)
+![Admin's dashboard view](view_inventory.jpg)
 ```
 
 ---
@@ -52,8 +52,8 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 
 ### Design Layout
 ```
-![alt text](telegram-cloud-photo-size-5-6075620502124217723-y.jpg)
-![alt text](telegram-cloud-photo-size-5-6075620502124217722-y.jpg)
+![Create User Page.](create_user.jpg)
+![User Management page view.](user_management.jpg)
 ```
 
 ---

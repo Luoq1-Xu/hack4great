@@ -74,7 +74,7 @@ function DesktopNav() {
           />
         </Link>
 
-        <NavItem href="/user/orders" label="Orders">
+        <NavItem href="#" label="Orders">
           <ShoppingCart className="h-5 w-5" />
         </NavItem>
 
