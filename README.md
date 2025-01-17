@@ -80,4 +80,4 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 ---
 
 ## Acknowledgments
-This project was built using the [Next.js PostgreSQL NextAuth TailwindCSS Template](https://github.com/vercel/nextjs-postgres-nextauth-tailwindcss-template) by Vercel. We extend our gratitude for their foundational work, which has enabled the creation of this tailored solution for MWH.
+This project was built using the [Next.js PostgreSQL NextAuth TailwindCSS Template](https://github.com/vercel/nextjs-postgres-nextauth-tailwindcss-template) by Vercel. We extend our gratitude for their foundational work, which has enabled the creation of this tailored solution for MWH. 
