@@ -29,9 +29,9 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 - Overview for residents to view products available in the Minimart.
 
 ### Design Layout
-```
+
 ![The inventory view of all products for residents.](user_view.png)
-```
+
 
 ---
 
@@ -40,9 +40,9 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 - Allow admins to add, edit, or delete products.
 
 ### Design Layout
-```
+
 ![Admin's dashboard view](view_inventory.jpg)
-```
+
 
 ---
 
@@ -51,10 +51,10 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 - Allow admins to manage resident accounts.
 
 ### Design Layout
-```
+
 ![Create User Page.](create_user.jpg)
 ![User Management page view.](user_management.jpg)
-```
+
 
 ---
 
