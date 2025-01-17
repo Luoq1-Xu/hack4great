@@ -1,9 +1,3 @@
-<div align="center"><strong>Hello</strong></div>
-<div align="center">Built with the Next.js App Router</div>
-<div align="center">Built upon Next.js 15 Admin Dashboard Template - "https://vercel.com/templates/next.js/admin-dashboard-tailwind-postgres-react-nextjs"</div>
-<br />
-<div align="center">
-
 # Minimart and Voucher System Webpage Design
 
 ## Overview
@@ -81,3 +75,8 @@ For the staff, tools like detailed audit logs, automated inventory management, a
 
 ## Acknowledgments
 This project was built using the [Next.js PostgreSQL NextAuth TailwindCSS Template](https://github.com/vercel/nextjs-postgres-nextauth-tailwindcss-template) by Vercel. We extend our gratitude for their foundational work, which has enabled the creation of this tailored solution for MWH. 
+
+<div align="center">Built with the Next.js App Router</div>
+<div align="center">Built upon Next.js 15 Admin Dashboard Template - "https://vercel.com/templates/next.js/admin-dashboard-tailwind-postgres-react-nextjs"</div>
+<br />
+<div align="center">
